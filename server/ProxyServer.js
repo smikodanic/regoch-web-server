@@ -27,7 +27,7 @@ class ProxyServer {
     else if (!!proxyOpts && !proxyOpts.port) { throw new Error('The server "port" is not defined.'); }
     else if (!!proxyOpts && !proxyOpts.request_host) { proxyOpts.request_port = '127.0.0.1'; }
     else if (!!proxyOpts && !proxyOpts.request_port) { proxyOpts.request_port = 80; }
-    else if (!!proxyOpts && !proxyOpts.regexpUA) { proxyOpts.regexpUA = /bot|spider|crawl/i; }
+    else if (!!proxyOpts && !proxyOpts.regexpUA) { proxyOpts.regexpUA = /bot|spider|crawl|curl|lynx|wget/i; }
     this.proxyOpts = proxyOpts;
 
     this.browserOpts = browserOpts || { headless: true, width: 1300, height: 900, position: '0,0' };
