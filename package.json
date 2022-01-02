@@ -1,0 +1,29 @@
+{
+  "name": "regoch-web-server",
+  "version": "1.0.0",
+  "title": "Regoch Web Server",
+  "description": "Regoch Web Server is the HTTP Server and Reverse Proxy. It serves single page applications and it's usually part of the Regoch Web Framework.",
+  "author": "Sasa Mikodanic",
+  "homepage": "http://www.regoch.org/web-server",
+  "license": "MIT",
+  "keywords": [
+    "regoch",
+    "web server",
+    "spa server",
+    "single page app server",
+    "single page application server",
+    "http server",
+    "reverse proxy server"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "puppeteer": "^13.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smikodanic/regoch-web-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smikodanic/regoch-web-server/issues"
+  }
+}
