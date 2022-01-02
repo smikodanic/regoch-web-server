@@ -6,8 +6,7 @@ It's the backend and proxy server for the [Regoch Web ](https://github.com/smiko
 ## Features
 - HTTP Server for single page applications such as apps made in regoch-web framework
 - Reverse Proxy Server which makes single page applications SEO optimised for bots like GoogleBot, BingBot ...etc.
-- Reverse Proxy is using puppeteer to open SPA on the backend side
-- fast serer & simple to use
+- Reverse Proxy is using puppeteer to open SPA on the backend side (server side render)
 
 ## Installation
 ```bash
